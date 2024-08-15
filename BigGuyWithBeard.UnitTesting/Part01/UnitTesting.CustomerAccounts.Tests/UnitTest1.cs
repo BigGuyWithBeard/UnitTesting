@@ -1,10 +1,9 @@
 // The 'using' statement for Test Tools is in GlobalUsings.cs
 // using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using Part01; //namespace of the class we are testing
+using UnitTesting.CustomerAccounts;
 
-
-namespace Part01.MsTest
+namespace UnitTesting.CustomerAccounts.Tests
 {
     /// <summary>
     /// Tests for CustomerAccount class

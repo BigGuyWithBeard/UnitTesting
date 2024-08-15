@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Part01\Part01.csproj" />
+    <ProjectReference Include="..\UnitTesting.CustomerAccounts\UnitTesting.CustomerAccounts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
