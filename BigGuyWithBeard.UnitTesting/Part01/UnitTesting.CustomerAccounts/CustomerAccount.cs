@@ -1,4 +1,4 @@
-﻿namespace Part01
+﻿namespace UnitTesting.CustomerAccounts
 {
     /// <summary>
     /// Customer Account demo class
@@ -38,7 +38,7 @@
                 throw new ArgumentOutOfRangeException("amount");
             }
 
-            m_balance += amount; // intentionally incorrect code!
+            m_balance += amount; // intentionally incorrect code
         }
 
         public void Credit(double amount)
